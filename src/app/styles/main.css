@@ -1,0 +1,4 @@
+/* global style */
+html {
+  scroll-behavior: smooth;
+}
