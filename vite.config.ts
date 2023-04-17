@@ -1,8 +1,8 @@
 import react from '@vitejs/plugin-react-swc';
-import { defineConfig } from 'vite';
+import {defineConfig} from 'vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import EnvironmentPlugin from 'vite-plugin-environment';
 
 export default defineConfig({
-  plugins: [react(), tsconfigPaths(), EnvironmentPlugin('all')],
+    plugins: [react(), tsconfigPaths(), EnvironmentPlugin('all')],
 });

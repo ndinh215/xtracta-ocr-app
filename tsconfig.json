@@ -2,7 +2,11 @@
   "compilerOptions": {
     "target": "esnext",
     "useDefineForClassFields": true,
-    "lib": ["DOM", "DOM.Iterable", "esnext"],
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "esnext"
+    ],
     "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": false,
@@ -17,21 +21,58 @@
     "jsx": "react-jsx",
     "baseUrl": "./",
     "rootDir": "./",
-    "types": ["vite/client", "node", "jest", "@testing-library/jest-dom"],
+    "types": [
+      "vite/client",
+      "node",
+      "jest",
+      "@testing-library/jest-dom"
+    ],
     "paths": {
-      "@/*": ["./*"],
-      "@public/*": ["public/*"],
-      "$app/*": ["src/app/*"],
-      "$assets/*": ["src/app/assets/*"],
-      "$components/*": ["src/app/components/*"],
-      "$hooks/*": ["src/app/hooks/*"],
-      "$routes/*": ["src/app/routes/*"],
-      "$infras/*": ["src/infras/*"],
-      "$services/*": ["src/services/*"],
-      "$models/*": ["src/models/*"]
+      "@/*": [
+        "./*"
+      ],
+      "@public/*": [
+        "public/*"
+      ],
+      "$app/*": [
+        "src/app/*"
+      ],
+      "$assets/*": [
+        "src/app/assets/*"
+      ],
+      "$components/*": [
+        "src/app/components/*"
+      ],
+      "$hooks/*": [
+        "src/app/hooks/*"
+      ],
+      "$routes/*": [
+        "src/app/routes/*"
+      ],
+      "$infras/*": [
+        "src/infras/*"
+      ],
+      "$services/*": [
+        "src/services/*"
+      ],
+      "$models/*": [
+        "src/models/*"
+      ]
     }
   },
-  "include": ["src", "jest.setup.ts"],
-  "exclude": ["node_modules", "**/node_modules/*", "dist", "**/dist/*"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": [
+    "src",
+    "jest.setup.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+    "dist",
+    "**/dist/*"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
 }

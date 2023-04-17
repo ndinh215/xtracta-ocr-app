@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
 	 viewBox="0 0 297 297" xml:space="preserve">
 <g>
 	<g>
@@ -10,22 +10,22 @@
 			</g>
 		</g>
 	</g>
-	<path style="fill:#107A66;" d="M186.126,75.459L53.245,193.429l103.351,103.349c66.728-3.586,121.748-51.219,136.504-114.344
+    <path style="fill:#107A66;" d="M186.126,75.459L53.245,193.429l103.351,103.349c66.728-3.586,121.748-51.219,136.504-114.344
 		L186.126,75.459z"/>
-	<g>
+    <g>
 		<path style="fill:#32373B;" d="M63.667,198h169.667c7.824,0,14.167-6.343,14.167-14.167v-37.667
 			c0-7.824-6.343-14.167-14.167-14.167H63.667c-7.824,0-14.167,6.343-14.167,14.167v37.667C49.5,191.657,55.843,198,63.667,198z"/>
 	</g>
-	<g>
+    <g>
 		<polygon style="fill:#FFFFFF;" points="176.667,66 99,66 99,148.5 198,148.5 198,87.333 		"/>
 	</g>
-	<g>
+    <g>
 		<polygon style="fill:#D0D5D9;" points="176.667,87.333 198,87.333 176.667,66 		"/>
 	</g>
-	<g>
+    <g>
 		<circle style="fill:#E67E22;" cx="225.96" cy="170.04" r="5.04"/>
 	</g>
-	<g>
+    <g>
 		<rect x="99" y="181.5" style="fill:#D0D5D9;" width="99" height="49.5"/>
 	</g>
 </g>
